@@ -1,0 +1,28 @@
+{
+  "coffee": [
+    {
+      "id": 1,
+      "product_name": "French Press",
+      "description": "A cup of our house roasted medium bold coffee",
+      "price": 2.99
+    },
+    {
+      "id": 2,
+      "product_name": "Latte",
+      "description": "A cup of our finest steamed local milk with our house roasted coffee",
+      "price": 4.99
+    },
+    {
+      "product_name": "Mocha",
+      "description": "A cup of our finest chocolate infused steamed coffee concoction",
+      "price": 5.99,
+      "id": 4
+    },
+    {
+      "product_name": "Americano",
+      "description": "A tall cup of a special alkaline water combined with a shot of our house roasted coffee",
+      "price": 3.99,
+      "id": 5
+    }
+  ]
+}

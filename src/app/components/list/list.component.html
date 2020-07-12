@@ -1,0 +1,10 @@
+<h3 style="text-align: center;">COFFEE MENU</h3>
+<div *ngFor="let item of coffeeList" style="text-align: center;">
+  <a routerLink="/product/{{item.id}}">
+    <button class="product_btn">
+      <div>Product Name: {{item.product_name}}</div>
+      <div>Price: {{item.price}}</div>
+    </button>
+  </a>
+  <hr>
+</div>

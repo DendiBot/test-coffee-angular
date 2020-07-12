@@ -1,0 +1,13 @@
+<h3>CREATE A NEW COFFEE ITEM</h3>
+<form (ngSubmit) = "createItem()">
+  <p>
+    Product Name: <input type="text" [(ngModel)]="newCoffeeItem.product_name" name="product_name">
+  </p>
+  <p>
+    Description: <input type="text" [(ngModel)]="newCoffeeItem.description" name="description">
+  </p>
+  <p>
+    Price: <input type="number" [(ngModel)]="newCoffeeItem.price" name="price">
+  </p>
+  <button type="submit">CREATE ITEM</button>
+</form>

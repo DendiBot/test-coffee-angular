@@ -1,0 +1,14 @@
+<h3>EDIT COFFEE ITEM</h3>
+<form (ngSubmit) = "editItem()">
+  <p>
+    Product Name: <input type="text" [(ngModel)]="coffeeItem.product_name" name="product_name">
+  </p>
+  <p>
+    Description: <textarea [(ngModel)]="coffeeItem.description" name="description"></textarea>
+
+  </p>
+  <p>
+    Price: <input type="number" [(ngModel)]="coffeeItem.price" name="price">
+  </p>
+  <button type="submit">EDIT ITEM</button>
+</form>

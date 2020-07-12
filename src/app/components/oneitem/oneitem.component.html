@@ -1,0 +1,14 @@
+<div>
+  <h3>{{coffeeItem.product_name}}</h3>
+  <hr>
+  <div>
+    <h5>Description</h5>
+    <p>{{coffeeItem.description}}</p>
+  </div>
+  <div>
+    <h5>Price</h5>
+    <p>{{coffeeItem.price}}</p>
+  </div>
+  <button routerLink = "/edit/{{coffeeItem.id}}">EDIT</button>
+  <button (click)="deleteItem(coffeeItem.id)">DELETE</button>
+</div>
